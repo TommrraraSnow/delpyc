@@ -1,0 +1,18 @@
+[project]
+name = "delpyc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+delpyc = "main:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[[tool.uv.index]]
+url = "https://mirrors.cloud.tencent.com/pypi/simple/"
+default = true
